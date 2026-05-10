@@ -19,20 +19,6 @@ This repository provides the core foundation and base architecture for the GUI s
 ## Getting Started
 ### Prerequisites
 * Java Development Kit (JDK) 8 or higher.
-* A system or framework supporting OpenGLES (such as Android or a desktop wrapper like LWJGL).
-
+* A system or framework supporting OpenGLES
 ### Usage
 Since this is a base framework, you can initialize the GUI context within your main render loop:
-
-```java
-// Example initialization (Pseudocode)
-IVGUIContext context = new IVGUIContext();
-
-public void onDrawFrame() {
-    context.beginFrame();
-    
-    // UI definitions go here
-    // IVGUI.button("Click Me");
-    
-    context.endFrame();
-}
